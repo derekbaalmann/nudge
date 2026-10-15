@@ -1,0 +1,5 @@
+<resources>
+    <string name="record_short">Record</string>
+    <string name="record_long">Record a reminder</string>
+    <string name="widget_desc">One tap to record a reminder</string>
+</resources>

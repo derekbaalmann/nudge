@@ -1,0 +1,7 @@
+<resources>
+    <!-- Black window and no open animation: the capture screen should appear instantly. -->
+    <style name="Theme.Capture" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

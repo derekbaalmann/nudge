@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+.kotlin/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx
+
+# Downloaded by tools/fetch-models.ps1 (too big for git)
+third_party/*.aar
+models/

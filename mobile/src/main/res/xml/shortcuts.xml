@@ -1,0 +1,13 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="record"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_mic"
+        android:shortcutShortLabel="@string/record_short"
+        android:shortcutLongLabel="@string/record_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="app.nudge"
+            android:targetClass="app.nudge.capture.CaptureActivity" />
+    </shortcut>
+</shortcuts>
